@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   // Path relatif agar hasil build bisa dibuka dari folder/subpath mana pun.
-  base: './',
+  base: './Aplikasi-Cuaca/',
   plugins: [vue()],
   server: {
     // Dengarkan semua antarmuka jaringan, bukan hanya localhost,
